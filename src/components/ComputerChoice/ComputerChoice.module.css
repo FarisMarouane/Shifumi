@@ -1,0 +1,19 @@
+.computerChoice {
+  opacity: 0;
+  animation-name: popup;
+  animation-duration: 0.7s;
+  animation-delay: 200ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}

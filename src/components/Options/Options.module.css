@@ -1,0 +1,17 @@
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.option {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #ddd;
+}
