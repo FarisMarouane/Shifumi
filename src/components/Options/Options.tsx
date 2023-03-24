@@ -9,13 +9,25 @@ interface IOptionsProps {
 
 const Options = ({ handleChoice }: IOptionsProps) => (
   <div className={styles.options}>
-    <button className={styles.option} onClick={() => handleChoice('rock')}>
+    <button
+      aria-label="rock"
+      className={styles.option}
+      onClick={() => handleChoice('rock')}
+    >
       <span className="fa fa-hand-rock-o" />
     </button>
-    <button className={styles.option} onClick={() => handleChoice('paper')}>
+    <button
+      aria-label="paper"
+      className={styles.option}
+      onClick={() => handleChoice('paper')}
+    >
       <span className="fa fa-hand-paper-o" />
     </button>
-    <button className={styles.option} onClick={() => handleChoice('scissors')}>
+    <button
+      aria-label="scissors"
+      className={styles.option}
+      onClick={() => handleChoice('scissors')}
+    >
       <span className="fa fa-hand-scissors-o" />
     </button>
   </div>

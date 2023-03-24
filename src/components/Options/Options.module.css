@@ -15,3 +15,7 @@
 .option:hover {
   background-color: #ddd;
 }
+
+.option:focus {
+  background-color: #ddd;
+}
